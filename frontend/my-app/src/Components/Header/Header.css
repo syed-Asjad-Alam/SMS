@@ -1,0 +1,52 @@
+.topbar {
+    height: 30px;
+    background-color: #3498db;
+}
+.topbar h3 {
+    align-self: flex-start;
+    text-align:center;
+    margin-left: 10px;
+    color: white;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 900;
+    padding-left: 2.3rem;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+
+.topbar {
+    height: 35px;
+    background-color: #3498db;
+}
+
+.intro  {
+    background: url(../../Images/intro.jpg) center center no-repeat fixed;
+    background-size: cover;
+    text-align: center;
+    border-bottom: #3498db solid 3px;
+}
+
+.intro h1 {
+    color: #ffffff;
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-size: 38px;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.intro p {
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 28px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Ruda', sans-serif !important;
+    font-weight: 300;
+}
+.introcontainer {
+    position: relative;
+    min-height: 1px;
+    padding: 20px;
+}

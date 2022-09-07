@@ -1,0 +1,200 @@
+.form {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 1400;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: auto;
+}
+.filterform {
+    display: flex;
+    /* position: relative; */
+    /* left: 0px;
+    top: 0px; */
+    z-index: 1400;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: auto;
+    transition: 4s;
+}
+
+.innerform {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.9);
+    color: inherit;
+    margin-top: 3.75rem;
+    margin-bottom: 3.75rem;
+    z-index: 1400;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    max-width: 28rem;
+    justify-content: flex-start;
+}
+
+.innerform header {
+    flex: 0 1 0;
+    padding-inline-start: 1.5rem;
+    padding-inline-end: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-family: 'Ruda', sans-serif;
+    color: #777777;
+}
+
+.innerform .belowheader {
+    padding-inline-start: 1.5rem;
+    padding-inline-end: 3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.firstdiv {
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+}
+
+.firstdiv label {
+    display: block;
+    text-align: start;
+    font-size: 1rem;
+    margin-inline-end: 0.75rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+    transition-duration: 200ms;
+    margin: 5px;
+    font-family: 'Ruda', sans-serif;
+    color: #777777;
+
+}
+
+
+.firstdiv input {
+    width: 100%;
+    min-width: 0px;
+    border-width: 1px;
+    border-radius: 0.375rem;
+    height: 2.5rem;
+    padding-inline-start: 1rem;
+    border-color: lightgrey;
+    border-style: solid;
+
+}
+
+.firstdiv input:focus-visible {
+    z-index: 1;
+    border-color: rgb(49, 130, 206);
+    box-shadow: rgb(49 130 206) 0px 0px 0px 1px;
+}
+
+.firstdiv1 input {
+    width: 100%;
+    min-width: 0px;
+    border-width: 1px;
+    border-radius: 0.375rem;
+    height: 2.5rem;
+    padding-inline-start: 1rem;
+    border-color: lightgrey;
+    border-style: solid;
+    margin: 5px;
+
+}
+
+.firstdiv1 input:focus-visible {
+    z-index: 1;
+    border-color: rgb(49, 130, 206);
+    box-shadow: rgb(49 130 206) 0px 0px 0px 1px;
+}
+
+.firstdiv1 {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.firstdiv1 select {
+    width: 100%;
+    min-width: 0px;
+    border-width: 1px;
+    border-radius: 0.375rem;
+    height: 2.5rem;
+    padding-inline-start: 1rem;
+    border-color: lightgrey;
+    border-style: solid;
+    margin: 5px;
+    font-family: 'Ruda', sans-serif;
+    color: #777777;
+    text-transform: uppercase;
+
+}
+
+.firstdiv1 select option {
+    width: 100%;
+    min-width: 0px;
+    border-width: 1px;
+    border-radius: 0.375rem;
+    height: 2.5rem;
+    padding-inline-start: 1rem;
+    border-color: lightgrey;
+    border-style: solid;
+    margin: 5px;
+    font-family: 'Ruda', sans-serif;
+    color: #777777;
+    text-transform: uppercase;
+}
+
+.form footer {
+    display: flex;
+    justify-content: flex-end;
+    padding-inline-start: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+.filterform footer {
+    display: flex;
+    justify-content: flex-end;
+    padding-inline-start: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+.save {
+    border-radius: 0.37rem;
+    color: white;
+    font-weight: 600;
+    height: 2.5rem;
+    font-size: 1rem;
+    font-family: 'Ruda', sans-serif;
+    background: #3498db;
+    border: none;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    margin-right: 5px;
+}
+.cancel {
+    border-radius: 0.37rem;
+    font-weight: 600;
+    height: 2.5rem;
+    font-size: 1rem;
+    font-family: 'Ruda', sans-serif;
+    background: #EDF2F7;
+    border: none;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    margin-left: 5px;
+
+}

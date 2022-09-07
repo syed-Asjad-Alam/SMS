@@ -1,0 +1,60 @@
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background: rgba(255, 255, 255, 0.9);;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    transition: width 0.5s;
+    z-index: 99;
+
+
+}
+
+.sidebar a {
+    display: block;
+    color:#777777;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 300;
+    font-family: 'Ruda', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    
+  }
+
+.active {
+    color: white;
+  }
+
+.sidebar a:hover {
+    background-color:#3498db;
+    color: white;
+}
+
+.collapsed {
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    background: rgba(255, 255, 255, 0.9);;
+    position: fixed;
+    height: 35px;
+    overflow: auto;
+    transition: width 0.5s;
+    z-index: 99;
+}
+.collapsed a {
+    display: none;
+}
+
+
+.icon em {
+    margin-bottom: 3px;
+    margin-left: 7px;
+    margin-top: 5px;
+    display: block;
+    width: 25px;
+    height: 2px;
+    background: #777777;
+}
